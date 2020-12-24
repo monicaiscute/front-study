@@ -1,32 +1,43 @@
+<!-- <head> <link rel="stylesheet" type="text/css" href="./mystyle.css"> </head> -->
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>W3Cschool教程(w3cschool.cn)</title>
 <style>
-    body
-    {
-    	background-color:hsla(120,60%,50%,1);
-    }
-    h1
-    {
-    	color:orange;
-    	text-align:center;
-    }
-    p
-    {
-    	font-family:"Times New Roman";
-    	font-size:20px;
-    	color:#C00000;
-
-    }
+body
+{
+    background-color:rgb(50,0,0);
+}
+#param
+{
+    color:rgba(255,0,0,0.1);
+    font-size:40px;
+}
+/*100+1*/
+#param p
+{
+    color:rgb(255,0,0);
+}
+/*100+1+10*/
+#param p .param2
+{
+    background-image:url('./th.jpg');
+    color:rgb(0,255,0);
+}
+/*100+1+10+1*/
+#param  p  .param2 strong
+{
+    color:rgb(0,0,255);
+}    
 </style>
 </head>
 
 <body>
-
-    <h1>CSS 实例!</h1>
-    <p>这是一个段落。</p>
-
+<div id="param">
+    <h1>read alpha</h1>
+    <!-- <p style="color:rgba(0,0,255,0.5)">这是一个段落。</p> -->
+    <p>red<span class="param2">green<strong>blue</strong></span></p>
+</div>
 </body>
 </html>
