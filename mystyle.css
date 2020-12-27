@@ -1,26 +1,147 @@
-body
+#div1
 {
-	background-color:hsla(120,60%,50%,1);
+	/*块元素：div p h1对齐*/
+	/*margin: auto;*/
+	position: absolute;
+	right: 0px;
+	width: 40%;
 }
-h1
+.img1
 {
-	color:orange;
-	text-align:center;
+	/*width: 100px;
+	height: 100px;*/
+	/*position: absolute;
+	*/
+	z-index: -1;
+	float: left;
 }
-p
+#p4
 {
-	font-family:"Times New Roman";
-	font-size:20px;
-	color:#C00000;
+	width: 90%
+	margin: auto;
+	/*z-index: -1;*/
+	/*clear: both;*/
+}
+#p3
+{
+    outline: red dotted;
+    border:yellow dashed;
+    /*padding:10px 70px;*/
+    /*position: fixed;*/
+    /*依然占用空间*/
+    /*visibility: hidden;*/
+    /*会释放空间*/
+    /*display: none;*/
+}
+li
+{
+	/*display: block;*/
+}
+div
+{
+/*	width: 700px;
+	padding:50px;
+	border:10px red;
+	margin:20px;
+	border-style:dashed;
+	border-top-style: solid;
+	border-bottom-style: dotted;*/
+}
+/*普通相邻兄弟选择器*/
+div~p
+{
+	color: red;
+}
+/*相邻兄弟选择器*/
+/*Adjacent sibling selector*/
+div+p
+{
+	/*color: red;*/
+}
+a:link
+{
+	color: rgb(255,0,0);
+}
+a:visited
+{color: rgb(0,255,0);}
+a:hover
+{color:transparent;}
+a:active
+{color:rgba(0,0,255,0.4);}
 
-}
 #param
-{
-    color:rgb(255,0,0);
-    font-size:50px;
+{	
+    /*color:rgba(255,0,0,0.1);*/
+    font-size:40px;
 }
-.param2
+/*100+100*/
+#param #p2
+{
+	border:groove green;
+	padding:30px;
+    color:rgb(255,0,0);
+}
+/*100+100+10*/
+#param #p2 .param2
+{
+    color:rgb(0,255,0);
+}
+/*100+100+10+1*/
+/*嵌套选择器*/
+/*后代选取器*/
+/*#param  #p2  .param2 strong*/
+/*子元素选取器Child selectors*/
+#param  #p2  .param2>strong
 {
     color:rgb(0,0,255);
-    /*font-size:50px;*/
+}
+#param h1
+{
+	color: rgba(255,0,0,0.8);
+	/*text-align: right;*/
+	text-decoration: underline;
+	text-transform: capitalize;
+	/*text-indent: 50px*/
+	/*word-spacing:10px;*/
+	font-family:"Times New Roman",serif;
+	font-style: oblique;
+	font-size: 80%;
+}
+ul
+{
+	list-style-type: disc;
+	/*list-style-image:url('./th.jpg');*/
+	list-style-position: 0px 5px;
+}
+/*分组选择器*/
+table,th,td
+{
+	font-size: 70px;
+	border: 1px solid blue;
+	/*border-collapse: collapse;*/
+}
+table
+{
+	/*width: 900px;*/
+}
+th
+{
+	/*height: 200px;*/
+	background-color: green;
+	color: white;
+}
+td
+{
+	/*height: 200px;*/
+	vertical-align: center;
+    text-align: center;
+    /*padding: 90px;*/
+}
+body
+{
+	background-image:url('./th.jpg');
+	background-repeat:no-repeat;
+	background-position:bottom right;
+    /*background-color:rgb(50,0,0);*/
+	/*background-position: 50%,50%;*/
 }
