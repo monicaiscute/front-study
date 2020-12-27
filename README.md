@@ -1,6 +1,6 @@
 # front-study
 page:
-https://www.w3cschool.cn/css/css-background.html
+https://www.w3cschool.cn/css/css-pseudo-classes.html
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
 
 question:
