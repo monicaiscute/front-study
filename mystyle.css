@@ -1,31 +1,62 @@
-#div1
+/*#image
 {
-	/*块元素：div p h1对齐*/
-	/*margin: auto;*/
-	position: absolute;
-	right: 0px;
-	width: 40%;
+
+}*/
+#box 
+{
+	display: block;
+	width:300px; 
+	height:300px;
+	border:2px solid black;
+	background-image: url(./th.jpg);
 }
-.img1
+#box #inside 
 {
-	/*width: 100px;
-	height: 100px;*/
-	/*position: absolute;
-	*/
-	z-index: -1;
-	float: left;
+	width:200px; 
+	height:200px;
+	border:2px solid white;
+	background-color: white;
+	margin: 40px;
+	opacity: 0.8;
 }
-#p4
+#box #inside>p
 {
-	width: 90%
-	margin: auto;
-	/*z-index: -1;*/
-	/*clear: both;*/
+	margin: 30px;
+}
+.dropdown
+{
+	/*display: block;*/
+}
+.dropdown-content
+{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: red;
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+      display: block;
+ } 
+.dropdown-content>a   
+{
+   display: block;	
+}
+/*pseudo element类元素*/
+/*p::first-line 
+{
+	color: black;
+}*/
+q:lang(no)
+{
+	quotes:"@""#";
 }
 #p3
 {
+	/*display: block;*/
     outline: red dotted;
     border:yellow dashed;
+    background-color: yellow;
+    width: 300px;
+    /*height: 300px;*/
     /*padding:10px 70px;*/
     /*position: fixed;*/
     /*依然占用空间*/
@@ -33,10 +64,49 @@
     /*会释放空间*/
     /*display: none;*/
 }
-li
+/*100*/
+#div1
 {
-	/*display: block;*/
+	color: blue;
+	/*块元素：div p h1对齐*/
+	/*margin: auto;*/
+	position: absolute;
+	right: 10px;
+	clear: both;
+	/*margin: 0px;
+	padding: 0px;*/
+	/*width: 40%;*/
 }
+/*100+1*/
+#div1 p:first-child
+{
+	color: green;
+}
+.img1
+{
+	display: inline-block;
+	border: 2px black solid;
+	margin: 8px;
+	padding: 8px;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+.img1 img
+{
+    opacity: 0.5;
+    /*filter:alpha(opacity=40); /* For IE8 and earlier */
+	width: 280px;
+	height: 280px;
+}
+.img1 img:hover
+{
+    opacity: 1;
+}
+.img1 span
+{
+}
+
 div
 {
 /*	width: 700px;
@@ -50,7 +120,7 @@ div
 /*普通相邻兄弟选择器*/
 div~p
 {
-	color: red;
+	/*color: red;*/
 }
 /*相邻兄弟选择器*/
 /*Adjacent sibling selector*/
@@ -58,12 +128,11 @@ div+p
 {
 	/*color: red;*/
 }
-a:link
+/*pseudo class 伪类*/
+a:link,a:visited
 {
-	color: rgb(255,0,0);
+  color: rgba(255,0,0,0.5);
 }
-a:visited
-{color: rgb(0,255,0);}
 a:hover
 {color:transparent;}
 a:active
@@ -75,26 +144,30 @@ a:active
     font-size:40px;
 }
 /*100+100*/
-#param #p2
+#param .p2
 {
 	border:groove green;
 	padding:30px;
     color:rgb(255,0,0);
 }
-/*100+100+10*/
-#param #p2 .param2
+/*100+10+1*/
+/*后代选择器*/
+#param .p2 strong
 {
     color:rgb(0,255,0);
 }
-/*100+100+10+1*/
+/*100+10*/
 /*嵌套选择器*/
-/*后代选取器*/
-/*#param  #p2  .param2 strong*/
 /*子元素选取器Child selectors*/
-#param  #p2  .param2>strong
+#param  .p2>strong
 {
     color:rgb(0,0,255);
 }
+/*后代选取器*/
+/*#param  #p2  .param2 strong
+{
+    color:rgb(0,0,255);
+}*/
 #param h1
 {
 	color: rgba(255,0,0,0.8);
@@ -109,10 +182,46 @@ a:active
 }
 ul
 {
-	list-style-type: disc;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 	/*list-style-image:url('./th.jpg');*/
-	list-style-position: 0px 5px;
+	/*list-style-position: 0px 5px;*/
 }
+div>ul>li
+{
+	float: left;
+}
+div>ul>li>a
+{
+	display: block;
+	width: 160px;
+	background-color: green;
+}
+/*li
+{
+	display: inline;
+}
+ul> li >a:link,ul> li >a:visited
+{
+	color: green;
+	width: 10px;
+	background-color: #98bf21;
+	text-decoration: none;
+	padding: 6px;
+	text-transform: uppercase;
+}*/
+/*伪类*/
+tr:first-child>th
+{
+	color: rgba(0,255,0,0.5);
+}
+tr>th:first-child
+{
+	color: rgba(0,0,255,0.5);
+}
+
 /*分组选择器*/
 table,th,td
 {
