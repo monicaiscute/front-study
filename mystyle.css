@@ -1,14 +1,55 @@
-/*#image
+input[type='text']
 {
-
-}*/
+	color: red;
+    display: block; 
+    background-color: yellow;
+    width: 80px;
+    margin-left: 0px;
+}
+input[type='button']
+{
+	width: 60px;
+	margin-left: 20px;
+	padding: 0px;
+}
+[title~=test]
+{
+	color: blue;
+	font-size: 20px;
+}
+#navlist li
+{
+   display: inline-block;
+   background: url("./tree.jpg") 50px 50px; 
+   width:40px;
+   height:40px;
+}
+#navlist li a:link,#navlist li a:visited
+{
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+/*.li1 a:hover*/
+.li1:hover
+{
+	opacity: 0.5;
+}
+#image
+{
+	/*左 px，顶部 px）*/
+  background:url("./th.jpg") 30px 20px no-repeat;
+  width: 300px;
+  height: 300px;
+  border: red dotted;
+}
 #box 
 {
 	display: block;
+	background-image: url(./th.jpg);
 	width:300px; 
 	height:300px;
-	border:2px solid black;
-	background-image: url(./th.jpg);
+	border:2px solid red;
 }
 #box #inside 
 {
@@ -25,7 +66,7 @@
 }
 .dropdown
 {
-	/*display: block;*/
+	display: block;
 }
 .dropdown-content
 {
@@ -109,29 +150,20 @@ q:lang(no)
 
 div
 {
-/*	width: 700px;
-	padding:50px;
-	border:10px red;
-	margin:20px;
-	border-style:dashed;
-	border-top-style: solid;
-	border-bottom-style: dotted;*/
 }
 /*普通相邻兄弟选择器*/
 div~p
 {
-	/*color: red;*/
 }
 /*相邻兄弟选择器*/
 /*Adjacent sibling selector*/
 div+p
 {
-	/*color: red;*/
 }
 /*pseudo class 伪类*/
 a:link,a:visited
 {
-  color: rgba(255,0,0,0.5);
+  /*color: rgba(255,0,0,0.5);*/
 }
 a:hover
 {color:transparent;}
@@ -180,25 +212,15 @@ a:active
 	font-style: oblique;
 	font-size: 80%;
 }
-ul
+#param ul
 {
+	border: black solid;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	/*list-style-image:url('./th.jpg');*/
-	/*list-style-position: 0px 5px;*/
 }
-div>ul>li
-{
-	float: left;
-}
-div>ul>li>a
-{
-	display: block;
-	width: 160px;
-	background-color: green;
-}
+
 /*li
 {
 	display: inline;

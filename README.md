@@ -1,6 +1,6 @@
 # front-study
 page:
-https://www.w3cschool.cn/css/css-image-sprites.html
+https://www.w3cschool.cn/css/css-examples.html
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
 
 question:
@@ -30,4 +30,14 @@ table,th,td{} vs table th td{}
 	border:2px solid black;
 	background-image: url(./th.jpg);
 }
+or comment 
+width:300px; 
+height:300px;
+
 才能正常显示下面三张图片？
+
+
+5
+why 
+.li1:hover  work
+/*.li1 a:hover*/ not work?
