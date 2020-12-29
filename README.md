@@ -41,3 +41,8 @@ height:300px;
 why 
 .li1:hover  work
 /*.li1 a:hover*/ not work?
+
+
+float?
+postion?
+z-index

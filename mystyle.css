@@ -117,6 +117,7 @@ q:lang(no)
 	/*margin: 0px;
 	padding: 0px;*/
 	/*width: 40%;*/
+	display: block;
 }
 /*100+1*/
 #div1 p:first-child
