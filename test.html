@@ -4,59 +4,56 @@
 <meta charset="utf-8">
 <title>test</title>
 <style>  
-body
+img
 {
-    /*background: green;*/
-    /*background-image: url("./tree.jpg");
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-attachment: fixed;*/
+	vertical-align: top;
 }
-.box 
+#one
 {
-    border: black solid;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    /*float: left;*/
-    margin:0 10px; 
-    z-index: -1;
+
+	/*white-space: nowrap;
+	word-spacing: 20px;
+	text-indent: 0px;*/
 }
 #two
 {
-    position: absolute;
-    top: 80px;
-    left: 80px;
-    
+	/*direction: rtl;*/
+/*	margin-right: 0px;
+	padding-right: 0px;
+	margin-left: 90px;
+	padding-left: 90px;*/
+	/*letter-spacing:20px; */
+	/*text-transform: lowercase;*/
 }
-/*#indide
+#three
 {
-    background-color:white; 
-    margin-right: 1%;
-    margin-left: 60%;
-}*/
-p
-{
-    width: 80px;
-    border: black dotted;
+	text-transform:  capitalize;
 }
-/*img
+.small
 {
-    position: absolute;
-    z-index: -1;
+	line-height: 100px;
 }
-*/
 </style>
 </head>
 <body>
-<div class='box' id='one'>one</div>
-<div class='box' id='two'>two</div>
-<div class='box' id='three'>three</div>
-<div class='box' id='four'>four</div>
-<p>twetwtw</p>
-<!-- <h1>css</h1>
-<img src="./tree.jpg"/>
-<p>twetteeeeeeeeewt</p> -->
+
+	<p id='two'>一些文本。从右到左的书写方向。<img src="./tree.jpg" width="100px" /></p>
+<!-- <p id='one1'>i love you if you ask me</p> -->
+ <p id='one'>
+    这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。
+    这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。
+    </p>
+
+    <p class="small">
+    This is a paragraph with a smaller line-height.
+    This is a paragraph with a smaller line-height.
+    This is a paragraph with a smaller line-height.<br>
+    </p>
+<!-- <p id='two'>This is22</p>
+<p id='three'>This is33</p> -->
 </body>
 </html>
 

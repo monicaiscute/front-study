@@ -1,5 +1,7 @@
 # front-study
 page:
+CSS的字体
+设置文本的字体
 https://www.w3cschool.cn/css/css-examples.html
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
 
@@ -46,3 +48,5 @@ why
 float?
 postion?
 z-index
+
+
