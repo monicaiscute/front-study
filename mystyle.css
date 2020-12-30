@@ -1,3 +1,31 @@
+#nav ul *
+{
+	/*border: 2px black solid;*/
+}
+#nav ul
+{
+   padding: 0px;
+   margin: 0px;
+   list-style-type: none;
+   
+}
+#nav ul li
+{
+	/*padding: 10px;
+	border: 1px black solid;
+	display: inline;
+	float: left;*/
+	/*border-color: red;*/
+}
+#nav ul li a 
+{
+	/*text-decoration: none;
+	padding: 10px;*/
+}
+#nav ul li a:hover
+{
+	/*background-color: green;*/
+} 
 input[type='text']
 {
 	color: red;

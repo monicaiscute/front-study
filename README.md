@@ -1,6 +1,6 @@
 # front-study
 page:
-https://www.w3cschool.cn/css/css-rwd-viewport.html
+https://www.w3cschool.cn/css/css-navigation.html
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
 
 note
