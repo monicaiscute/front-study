@@ -24,14 +24,22 @@ input[type='button']
    width:40px;
    height:40px;
 }
+#navlist li
+{
+	border: 1px red solid;
+}
+#navlist li a
+{
+	border: 1px black solid;	
+}
 #navlist li a:link,#navlist li a:visited
 {
 	display: block;
 	width: 40px;
 	height: 40px;
 }
-/*.li1 a:hover*/
-.li1:hover
+.li1 a:hover
+/*.li1:hover*/
 {
 	opacity: 0.5;
 }
@@ -74,7 +82,9 @@ input[type='button']
     background-color: red;
     display: none;
 }
-.dropdown:hover .dropdown-content{
+.dropdown p:hover .dropdown-content{
+/*div.dropdown:hover .dropdown-content{*/
+/*.dropdown:hover .dropdown-content{*/
       display: block;
  } 
 .dropdown-content>a   
@@ -106,17 +116,13 @@ q:lang(no)
     /*display: none;*/
 }
 /*100*/
+/*块元素：div p h1对齐*/
 #div1
 {
 	color: blue;
-	/*块元素：div p h1对齐*/
-	/*margin: auto;*/
 	position: absolute;
 	right: 10px;
 	clear: both;
-	/*margin: 0px;
-	padding: 0px;*/
-	/*width: 40%;*/
 	display: block;
 }
 /*100+1*/

@@ -1,52 +1,21 @@
 # front-study
 page:
-CSS的字体
-设置文本的字体
-https://www.w3cschool.cn/css/css-examples.html
+https://www.w3cschool.cn/css/css-rwd-viewport.html
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
 
-question:
+note
 1
 让background-image居正中
 外联样式才是居正中，内联默认无法局正中
-2
-style
-table,th,td{} vs table th td{}
-分组选择器 vs 嵌套选择器
-
-
-3
-.dropdown:hover .dropdown-content{ 
+question:
+1
+div.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content{
 为什么不能 
-.dropdown>p:hover .dropdown-content{？
-#div1:hover+div .dropdown-content{？
+.dropdown p:hover .dropdown-content{
 
-
-4 
-去掉
-#box 
-{
-	display: block;
-	width:300px; 
-	height:300px;
-	border:2px solid black;
-	background-image: url(./th.jpg);
-}
-or comment 
-width:300px; 
-height:300px;
-
-才能正常显示下面三张图片？
-
-
-5
-why 
-.li1:hover  work
-/*.li1 a:hover*/ not work?
-
-
-float?
-postion?
+float
+postion
 z-index
 
 

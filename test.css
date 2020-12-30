@@ -1,0 +1,417 @@
+table#table
+{
+	border-collapse: collapse;
+}
+table#table tr.alt
+{
+	background-color: #90EE90;
+}
+table#table td,table#table th
+{
+	border: 1px black solid;
+}
+table#table th
+{
+	background-color: #ADFF2F;
+   width: 100px;
+}
+table#table td
+{
+	
+	/*padding: 30px;
+	text-align: center;
+	vertical-align: center;*/
+}
+ul#ul
+{
+	list-style-type:none;
+	/*list-style-image: url("./th.jpg");*/
+	/*list-style-position: 0px 0px;*/
+	padding-left: 0px;
+	margin-left:0px;
+}
+ul#ul li
+{
+	
+	background-image: url("./th.jpg");
+	background-position: 0px 3px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+
+/*	width: 80px;
+	height: 30px;*/
+	/*border: 2px red solid;*/
+	/*display: block;*/
+}
+a#link:link
+{
+	background-color: green;
+    color: red;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    border: 2px black solid;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    /*background-color: white;*/
+    /*text-decoration: none;*/
+}
+a#link:visited
+{
+	color: black;
+
+}
+a#link:hover
+{
+	color: blue;
+	background-color: purple;
+	/*font-size: 50px;*/
+	/*background-color: red*/
+	/*text-decoration: overline;*/
+	/*opacity: 0.2;*/
+}
+a#link:active
+{
+	color: purple;
+}
+p.ex1
+    {
+    	font:30px arial,sans-serif;
+    }
+    
+    p.ex2
+    {
+    	font: 30px  Georgia,serif;
+    }
+ p#font1
+ {
+ 	font-size: 30px;
+ 	font-family: "times new roman",Times,serif;
+    /*font-size: 32px; */
+    /*font-size: 3em;*/
+    font-weight: lighter;
+    /*font-style: titling-caps;*/
+    /*font-variant: unicase;*/
+ }
+
+#one
+{
+
+	/*white-space: nowrap;
+	word-spacing: 20px;
+	text-indent: 0px;*/
+}
+#two
+{
+	/*direction: rtl;*/
+/*	margin-right: 0px;
+	padding-right: 0px;
+	margin-left: 90px;
+	padding-left: 90px;*/
+	/*letter-spacing:20px; */
+	/*text-transform: lowercase;*/
+}
+#three
+{
+	text-transform:  capitalize;
+}
+.small
+{
+	line-height: 100px;
+}
+div.ex
+{
+	width: 220px;
+	border: 5px gray solid;
+	margin-top: 5px;
+	padding: 10px;
+}
+p#p1
+{
+	border: 5px gray solid;
+	width: 210px;
+	padding: 10px;
+	padding-right: 20px;
+}
+p#p3
+{
+	padding: 0px;
+   border: red solid 1px;
+   outline: green  dotted 8px;
+}
+p#p5
+{
+	/*position: fixed;*/
+	/*visibility: hidden;*/
+	/*display: none;*/
+	margin-bottom: 100px;
+	/*padding: 50px;*/
+	/*margin-top: 2cm;*/
+}
+#p1,#p2
+{
+	/*position: fixed;*/
+	display: inline;
+}
+table tr.collapse
+{
+	visibility: collapse;
+}
+
+h2:first-child
+{
+	position: absolute;
+	/*z-index: -1;*/
+}
+h2:first-child,h2.pos_left
+{
+	margin: 0px;
+	height: 50px;
+	border: 2px red solid;
+	/*position:relative;*/
+	left:-80px;
+}
+
+h2.pos_right
+{
+	border: 2px red solid;
+	/*position:absolute;*/
+	/*left:100px;*/
+	top: 100px;
+	/*right: 40px;*/
+}
+div.scroll
+{
+	width: 100px;
+	height: 100px;
+    overflow: scroll;
+}
+div.hidden
+{
+	width: 100px;
+	height: 80px;
+    overflow:hidden;
+}
+p#p10 
+{
+	/*margin: 0px;*/
+     
+     /*display: block;*/
+     width: 500px;
+     height: 90px;
+     
+}
+p#p10 span
+{
+	/*font-size: 40px;
+	float: left;*/
+}
+/*div#div10 p 
+{
+	padding: 0px;
+	margin: 0px;
+}*/
+div#div10
+{
+	/*display: block;*/
+	float: right;
+	border: 2px black solid;
+	width: 200px;
+	height: 110px;
+	text-align: center;
+	padding-top: 10px;
+}
+ul#ul5
+{
+	/*width: 60px;*/
+	 padding-left: 0px;
+	 margin-left: 0px;
+     list-style-type:none;
+     /*display: block; */
+     /*float: left;*/
+}
+ul#ul5 li
+{
+	display: inline;
+	/*background-color: red;*/
+	
+	/*padding: 0px;*/
+	
+}
+ul#ul5 li a:hover
+{
+	background-color: green;
+}
+ul#ul5 li a
+{
+/*float: left;*/
+	padding: 20px;
+	border: black 2px solid;
+	background-color: red;
+	/*display: inline;*/
+	/*margin: 0px;*/
+	text-decoration: none;
+	color: white;
+	
+
+}
+ ul#ul6
+    {
+    	float:left;
+    	width:100%;
+    	padding:0;
+    	margin:0;
+    	list-style-type:none;
+    }
+   ul#ul6 a
+    {
+    	float:left;
+    	width:6em;
+    	text-decoration:none;
+    	color:white;
+    	background-color:purple;
+    	padding:0.2em 0.6em;
+    	border-right:1px solid white;
+    }
+    ul#ul6 a:hover {background-color:#ff3300;}
+    ul#ul6 li {display:inline;}
+div#div11 h1,div#div11,div#div11 p
+{
+	padding: 0px;
+	margin: 0px;
+}    
+div#div11 h1,div#div11 span
+{
+  background-color: gray;
+}
+div#div11 span
+{
+	display: block;
+}
+div#div11 p.left
+{
+	/*padding-top: 0px;
+	margin-top: 0px;*/
+	float: left;
+	width: 40%;
+	height:150px;
+	border: black 2px solid;
+}
+div#div11 p.right
+{
+	/*width: 60%;*/
+	height:150px;
+	border: black 2px solid;
+}
+div#div12
+{
+	background-color: green;
+	margin-left: 80px;
+	width: 600px;
+	right: 0px;
+	position: absolute;
+}
+p#p12 a:before 
+{
+	content: " (" attr(href) ")-";
+	/*content: url("./th.jpg");*/
+}
+ul#ull7
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+ul#ull7 li a
+{
+	display: block;
+	background-color: green;
+	/*border: 2px solid black;*/
+	text-decoration: none;
+	width: 100px;
+	text-align: center;
+	color: white;
+}
+ul#ull7 li a:hover
+{
+	background-color: red;
+}
+ul#ull8
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+ul#ull8 li 
+{
+	/*border: 1px black solid;*/
+	display: inline;
+	float: left;
+	width: 100px;
+}
+ul#ull8 a 
+{
+    display: block;	
+	/*width: 10px;*/
+	text-decoration: none;
+	background-color: gray;
+	/*border: 1px red solid;*/
+}
+ul#ull8 a:hover
+{
+
+	background-color: green;
+} 
+div.divclass
+{
+	padding-top: 0px;
+	margin-left: 2px;
+	/*display: inline-block;*/
+	float: left;
+	border: 2px black solid;
+	text-align: center;
+	/*width: 200px;*/
+}
+div.divclass:first-child
+{
+ /*float: left;*/
+}
+div.divclass a img,div.divclass a img
+{
+	width: 150px;
+	height: 150px;
+   margin-top: 10px;
+
+}
+div.divclass a
+{
+	/*padding-top: 10px;*/
+	/*border: 2px red solid;	*/
+}
+div.divclass a:hover img,div.divclass a:hover img
+{
+    border: 2px black solid;
+}
+div#div17
+{
+
+	background: url("./tree.jpg") no-repeat ;
+	width: 500px;
+	border: 2px black solid;
+	text-align: center;
+}
+div#div17 .inside
+{
+	background-color: white;
+       margin: 40px 40px;
+       opacity: 0.4;
+}
+div#div17 .inside p
+{
+	padding-top: 20px;
+	text-align: center;
+	width: 420px;
+	border: 2px red solid;
+}
