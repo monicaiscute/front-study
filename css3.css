@@ -2,12 +2,31 @@ div
 {
 	width:100px;
 	height:75px;
-	background-color:red;
 	border:1px solid black;
+}
+div#div1
+{
+	text-align: center;
+	border-image-source: url("./th.jpg");
+	border-image-width: 20px;
+	/*border-image-repeat: no-repeat;*/
+	border-image-slice: 10%;
+	/*border-radius: 0px  30px 40px 60px;*/
+	/*border-top-right-radius: 40px;
+	border-top-left-radius: 90px;*/
+	background-color:red;
 }
 div#div2
 {
 	transform:rotate(30deg);
 	/*-ms-transform:rotate(30deg); /* IE 9 */*/
 	/*-webkit-transform:rotate(30deg); /* Safari and Chrome */*/
+}
+
+div#div3
+{
+	width:300px;
+	height:100px;
+	background-color:yellow;
+	box-shadow: 10px 10px 5px #888888;
 }

@@ -1,5 +1,5 @@
 # front-study
-https://www.tutorialspoint.com/css/css3_tutorial.htm
+https://www.tutorialspoint.com/css/css3_boarder_image.htm
 https://www.runoob.com/css3/css3-borders.html
 page:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
